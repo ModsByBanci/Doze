@@ -1,0 +1,22 @@
+{
+  "doze.configuration.sleepOutside": "Can Sleep Outside",
+  "doze.configuration.tip.sleepOutside": "Toggles whether players can sleep outside.",
+  "doze.configuration.minimumLight": "Minimum Light Level",
+  "doze.configuration.tip.minimumLight": "The minimum ambient light level required for sleep. Set to 0 to disable.",
+  "doze.configuration.bedsExplode": "Beds Explode",
+  "doze.configuration.tip.bedsExplode": "Toggles whether beds explode in dimensions like the Nether.",
+  "doze.configuration.advanced": "Advanced Settings",
+  "doze.configuration.tip.compatibility": "Don't mess with these unless you know what you're doing!",
+  "doze.configuration.healthPerHour": "Health Per Hour",
+  "doze.configuration.tip.healthPerHour": "The amount players will heal per hour slept. I don't know why you'd ever want this higher than 3, but here you go.",
+  "doze.configuration.hungerCost": "Hunger Cost",
+  "doze.configuration.tip.hungerCost": "The cost of hunger per health regained during sleep. Set to 0 to disable.",
+  "doze.configuration.tickHour": "Tick Hour",
+  "doze.configuration.tip.tickHour": "If you use a mod that alters time, make sure this setting matches the length (in ticks) of a day.",
+
+  "doze.block.minecraft.bed.outside": "You can't sleep outside.",
+  "doze.block.minecraft.bed.too_dark": "You can't sleep here, it's too dark.",
+  "doze.block.minecraft.bed.dimension_nether": "You can't sleep here, it's much too warm.",
+  "doze.block.minecraft.bed.dimension_end": "You can't sleep here, they won't let you...",
+  "doze.block.minecraft.bed.dimension_mod": "You can't sleep in this dimension."
+}
