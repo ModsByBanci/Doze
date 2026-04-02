@@ -6,7 +6,7 @@
   "doze.configuration.healthPerHour": "Health Per Hour",
   "doze.configuration.tip.healthPerHour": "Amount players will heal per hour slept. Set to 0 to disable.",
   "doze.configuration.hungerCost": "Hunger Cost",
-  "doze.configuration.tip.hungerCost": "Cost of hunger per hour healed during sleep. Set to 0 to disable.",
+  "doze.configuration.tip.hungerCost": "Cost of hunger per hour hour healed during sleep. Set to 0 to disable.",
   "doze.configuration.clearEffects": "Clear Potion Effects",
   "doze.configuration.tip.clearEffects": "Hours of sleep required to clear potion effects. Set to 0 to disable.",
   "doze.configuration.bedsExplode": "Beds Explode",

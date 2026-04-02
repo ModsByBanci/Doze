@@ -7,7 +7,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.PlayerWakeUpEvent;
 
 @EventBusSubscriber(modid = Doze.MODID)
-public class SleepRegenHandler {
+public class WakeEventHandler {
 
     @SubscribeEvent
     public static void onWakeUp(PlayerWakeUpEvent event) {
@@ -24,6 +24,13 @@ public class SleepRegenHandler {
 
             player.heal(Config.HEALTH_PER_HOUR.get());
             player.getFoodData().addExhaustion(Config.HUNGER_COST.get());
+        }
+
+        if ((Config.CLEAR_EFFECTS.get() !=0)
+        && (hoursSlept >= Config.CLEAR_EFFECTS.get())) {
+
+            player.removeAllEffects();
+
         }
     }
 }

@@ -23,30 +23,9 @@ public class SleepEventHandler {
         Player player = event.getEntity();
         Level level = event.getLevel();
 
-        if (level.isClientSide()
-            || (player.isSecondaryUseActive()
-                && !(player.getMainHandItem().isEmpty()))
-            || !level.getBlockState(event.getPos()).is(BlockTags.BEDS)
-            || (Config.BEDS_EXPLODE.get()
-                && level.environmentAttributes().getValue(EnvironmentAttributes.BED_RULE, event.getPos()).explodes())
-        ) return;
+        if (event.getLevel().isClientSide()) return;
 
         player.getPersistentData().putInt("doze.bedTime", (int) level.getDayTime());
-
-        // Dimension Check
-        if (!Config.BEDS_EXPLODE.get()
-            && (level.dimension() == Level.NETHER)) {
-            event.setProblem(DIMENSION_NETHER);
-            return;
-        } else if (!Config.BEDS_EXPLODE.get()
-            && (level.dimension() == Level.END)) {
-            event.setProblem(DIMENSION_END);
-            return;
-        } else if (!Config.BEDS_EXPLODE.get()
-            && level.environmentAttributes().getValue(EnvironmentAttributes.BED_RULE, event.getPos()).explodes()) {
-            event.setProblem(DIMENSION_MOD);
-            return;
-        }
 
         // Roof Check
         if (!Config.SLEEP_OUTSIDE.get()
