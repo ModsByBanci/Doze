@@ -1,0 +1,29 @@
+{
+  "doze.configuration.title": "Doze Settings",
+  "doze.configuration.advanced": "Advanced",
+  "doze.configuration.advanced.tooltip": "Don't mess with these unless you know what you're doing!",
+  "doze.configuration.section.doze.common.toml": "Doze Configs",
+  "doze.configuration.section.doze.common.toml.title": "Doze Configs",
+
+  "doze.configuration.sleepOutside": "Can Sleep Outside",
+  "doze.configuration.sleepOutside.tooltip": "Whether players are allowed to sleep outside",
+  "doze.configuration.minimumLight": "Minimum Light Level",
+  "doze.configuration.minimumLight.tooltip": "Minimum light level required for sleep. Set to 0 to disable",
+  "doze.configuration.healthPerHour": "Health Per Hour",
+  "doze.configuration.healthPerHour.tooltip": "Amount players will heal per hour slept. Set to 0 to disable",
+  "doze.configuration.hungerCost": "Hunger Cost",
+  "doze.configuration.hungerCost.tooltip": "Cost of hunger per hour healed during sleep. Set to 0 to disable",
+  "doze.configuration.clearEffects": "Clear Potion Effects",
+  "doze.configuration.clearEffects.tooltip": "Hours of sleep required to clear potion effects. Set to 0 to disable",
+  "doze.configuration.bedsExplode": "Beds Explode",
+  "doze.configuration.bedsExplode.tooltip": "Whether beds explode in dimensions like the Nether",
+
+  "doze.configuration.tickHour": "Tick Hour",
+  "doze.configuration.tickHour.tooltip": "If you use a mod that alters time, this setting should match the relative length (in ticks) of one hour",
+
+  "block.doze.bed.outside": "You can't sleep outside",
+  "block.doze.bed.too_dark": "You can't sleep here, it's too dark",
+  "block.doze.bed.dimension_nether": "You can't sleep here, it's much too warm",
+  "block.doze.bed.dimension_end": "You can't sleep here, they won't let you",
+  "block.doze.bed.dimension_mod": "You can't sleep in this dimension"
+}

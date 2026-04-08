@@ -1,0 +1,38 @@
+license="${mod_license}"
+
+issueTrackerURL="https://github.com/BanciBTS/Doze/issues"
+
+[[mods]]
+
+modId="${mod_id}"
+
+logoFile="icon.png"
+
+version="${mod_version}"
+
+displayName="${mod_name}"
+
+displayURL="https://modrinth.com/project/doze-by-banci"
+
+authors="Banci"
+
+description='''
+Doze introduces a few immersive features to beds aimed at making an otherwise dull part of the game just a bit less sleepy.
+'''
+
+[[mixins]]
+config="${mod_id}.mixins.json"
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[${neo_version},)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

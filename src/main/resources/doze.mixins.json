@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "by.banci.doze.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BedBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
