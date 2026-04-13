@@ -38,7 +38,7 @@
 <h2> Frequently Asked </h2>
 
 <h3> "Is this compatible with..." </h3>
-    Probably! I built this baby to be indestructable but if you have any issues let me know!
+    Probably! I built this baby to be indestructible but if you have any issues let me know!
     
 <h3> "Will you port to..." </h3>
     Nope! But you're welcome to take a crack at it yourself.
